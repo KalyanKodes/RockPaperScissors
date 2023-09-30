@@ -1,0 +1,35 @@
+<!-- This project was started on 02/08/2023 and completed on 02/08/2023 -->
+<!-- This project consists of 295 lines of code including script, HTML and styles -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: rgb(103 232 249);">
+    <h1>Rock Paper Scissors</h1>
+    <!-- This the main container that contains all the necessary element -->
+    <div class="outerContainer">
+        <span class="scoreCard"> <!-- Score card to render scores of user and computer -->
+            <p class="userScore">0</p>
+            <span>-</span>
+            <p class="computerScore">0</p></span>
+        <div class="imagesContainer">   <!-- Image container having assests images , feedback label -->
+            <p class="feedback">User won</p>
+            <img src="./Assests/rock.png" class="userImage">
+            <img src="./Assests/rock.png" class="computerImage">
+            <p class="userRender">You</p>
+            <p class="computerRender">Computer</p>
+        </div>
+        <div class="buttons"> <!-- Buttons to select the chocie -->
+            <button class="rockButton" title="rock">Rock</button>
+            <button class="paperButton" title="paper">Paper</button>
+            <button class="scissorsButton" title="scissors">Scissors</button>
+        </div>
+    </div>
+    <button class="startGame">Let's play</button> <!-- Button to start the game. This is rendered intially when the page is opened  -->
+    <script src="script.js"></script>
+</body>
+</html>
